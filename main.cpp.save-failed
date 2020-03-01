@@ -1,0 +1,79 @@
+#include <allegro5/allegro.h>
+#include <allegro5/allegro_image.h>
+#include <allegro5/allegro_primitives.h>
+#include <allegro5/allegro_image.h>
+#include<iostream>
+#define rozmiar 75
+
+
+using namespace std;
+
+ALLEGRO_DISPLAY * okno = NULL;
+
+struct Szachownica
+{
+    bool busy;
+    int x,y;
+    ALLEGRO_BITMAP * kwadrat;
+};
+
+Szachownica *** pole;
+
+void odswierz_plansze()
+{
+
+    al_set_new_display_flags(ALLEGRO_WINDOWED);
+    okno=al_create_display(600,600);
+    al_set_window_title(okno,"Warcaby");
+    al_set_new_display_flags(ALLEGRO_WINDOWED|ALLEGRO_RESIZABLE);
+
+    //al_set_window_position(0,0);
+    pole = new Szachownica ** [8];
+    for(int i=0;i<8;i++) pole[i] = new Szachownica * [8];
+    for(int i=0;i<8;i++) for(int j=0;j<8;j++) pole[i][j]=NULL;
+
+    for(int i=0;i<8;i++)
+        for(int j=0;j<8;j++)
+        {
+            pole[i][j] = new Szachownica;
+            pole[i][j]->kwadrat=al_create_bitmap(rozmiar,rozmiar);
+            al_set_target_bitmap(pole[i][j]->kwadrat);
+            if((i+j)%2) al_clear_to_color(al_map_rgb(0,0,0));
+            else al_clear_to_color(al_map_rgb(255,255,255));
+            pole[i][j]->x=j*75;
+            pole[i][j]->y=i*75;
+
+        }
+    for(int i=0;i<8;i++)
+        for(int j=0;j<8;j++) cout<<pole[i][j]->x<<" "<<pole[i][j]->y<<endl;
+            //pole[i][j]->kwadrat = al_load_bitmap("media/bialy.png");
+    al_set_target_bitmap(al_get_backbuffer(okno));
+
+    for(int i=0;i<8;i++) for(int j=0;j<8;j++) al_draw_bitmap(pole[i][j]->kwadrat,pole[i][j]->x,pole[i][j]->y,0);
+
+
+    al_set_target_bitmap(pole[0][0]->kwadrat);
+    al_flip_display();
+
+
+}
+
+void stworz_pionka()
+{
+    al_draw_filled_circle(250,120, 34, al_map_rgba(200,28, 0,60));
+}
+
+int main()
+{
+    al_init();
+    al_init_primitives_addon();
+    al_install_keyboard();
+    ALLEGRO_KEYBOARD_STATE klawiatura;
+
+    odswierz_plansze();
+
+
+    while(!al_key_down(&klawiatura,ALLEGRO_KEY_ESCAPE)) al_get_keyboard_state(&klawiatura);
+
+    return 0;
+}

@@ -1,0 +1,183 @@
+# depslib dependency file v1.0
+1493058134 source:c:\users\cypo\documents\bloki\warcaby\main.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"header.hpp"
+	<iostream>
+
+1493390008 source:c:\users\cypo\documents\bloki\warcaby\generowanie.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<iostream>
+	"header.hpp"
+
+1492619507 c:\users\cypo\documents\bloki\warcaby\header.h
+	<allegro5/allegro.h>
+
+1492622468 c:\users\cypo\documents\bloki\warcaby\generowanie.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<iostream>
+	"header.hpp"
+
+1493487427 c:\users\cypo\documents\bloki\warcaby\header.hpp
+	<allegro5/allegro.h>
+	<stdio.h>
+	<stdlib.h>
+
+1492994970 source:c:\users\cypo\documents\bloki\warcaby\rozgrywka.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"header.hpp"
+	<iostream>
+
+1493560855 source:c:\users\cypo\documents\bloki\warcaby\przydatnefunkcje.cpp
+	"header.hpp"
+	<iostream>
+
+1493454961 source:c:\users\cypo\documents\bloki\warcaby\rozgrywka2people.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"header.hpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1493487458 source:c:\users\cypo\documents\bloki\warcaby\menu.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"header.hpp"
+	<iostream>
+
+1493975688 source:c:\users\cypo\documents\bloki\warcaby\interactive4players2.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_native_dialog.h>
+	"header.hpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1493975766 source:c:\users\cypo\documents\bloki\warcaby\rozgrywkapeoplecomputer.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_native_dialog.h>
+	"header.hpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1493386410 source:d:\pendrak\bloki\warcaby\generowanie.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<iostream>
+	"header.hpp"
+
+1493483828 d:\pendrak\bloki\warcaby\header.hpp
+	<allegro5/allegro.h>
+	<stdio.h>
+	<stdlib.h>
+
+1493972090 source:d:\pendrak\bloki\warcaby\interactive4players2.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_native_dialog.h>
+	"header.hpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1493054536 source:d:\pendrak\bloki\warcaby\main.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"header.hpp"
+	<iostream>
+
+1493483860 source:d:\pendrak\bloki\warcaby\menu.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"header.hpp"
+	<iostream>
+
+1493977732 source:d:\pendrak\bloki\warcaby\przydatnefunkcje.cpp
+	"header.hpp"
+	<iostream>
+
+1493451362 source:d:\pendrak\bloki\warcaby\rozgrywka2people.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"header.hpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1493972168 source:d:\pendrak\bloki\warcaby\rozgrywkapeoplecomputer.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_native_dialog.h>
+	"header.hpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1493386410 source:d:\cppy\warcaby\generowanie.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<iostream>
+	"header.hpp"
+
+1493483828 d:\cppy\warcaby\header.hpp
+	<allegro5/allegro.h>
+	<stdio.h>
+	<stdlib.h>
+
+1493972090 source:d:\cppy\warcaby\interactive4players2.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_native_dialog.h>
+	"header.hpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1493054536 source:d:\cppy\warcaby\main.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"header.hpp"
+	<iostream>
+
+1493483860 source:d:\cppy\warcaby\menu.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"header.hpp"
+	<iostream>
+
+1493977732 source:d:\cppy\warcaby\przydatnefunkcje.cpp
+	"header.hpp"
+	<iostream>
+
+1493451362 source:d:\cppy\warcaby\rozgrywka2people.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"header.hpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
+1493972168 source:d:\cppy\warcaby\rozgrywkapeoplecomputer.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_native_dialog.h>
+	"header.hpp"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
